@@ -95,3 +95,26 @@
 .lista_item{
     font-size: 32px;
 }
+.rodape{
+   text-align: center;
+   margin: 6em 3em;
+}
+.rodape_logo{
+    margin-top: 3em;
+}
+.rodape_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 2em;
+}
+.lista_link a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 0.5em;
+}
+.rodape_texto{
+    font-size: 14px;
+    color: var(--cor-secundaria);
+    margin: 1.5em 0;
+}
