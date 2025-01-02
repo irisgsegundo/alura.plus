@@ -8,6 +8,7 @@
     --cor-secundaria: #C0C0C0;
     --cor-botoes: #167BF7;
     --cor-de-fundo: #00030C;
+    --cor-botao-efeito: #3c92fa;
     --fonte-principal: 'Inter', sans-serif;
 }
 *{
@@ -52,6 +53,9 @@
     text-decoration: none;
     display: block;
     margin-bottom: 1em;
+}
+.container_botao:hover{
+    background-color: var(--cor-botao-efeito);
 }
 .botao_secundario{
     background-color: transparent;
@@ -112,6 +116,12 @@
     text-decoration: none;
     color: #ffffff;
     margin: 0 0.5em;
+}
+.lista_link a:hover{
+    color: var(--cor-botoes);
+}
+.lista_link a:active{
+    color: purple;
 }
 .rodape_texto{
     font-size: 14px;
